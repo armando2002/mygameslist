@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: fSpB8j847LRI6Wtjf01eEOJLWqFV8eEpieGf+hiGhiUB6iBF/CdWvJ3+0ms8tb/dZef+xLFTRc8EyXTx0bbqDIztdgH6RKEh5IjA3yFvGbW/abW61DH7o1wvwlHX/SDGSNVilvmeHc+3X2zUwUZ4FIQ+yMdogb5WB+ZUK3uqlt3fFrBdpcn0lJ3bTZDvNpflMTc99X6Qpdm8izAMbBNAOGcHMQl/gvau2zarlO1/6TJL0YDVBEfwBONjsVR7vfXKpnS1NppNcptnQqdZd946bYznyAqH8+AYsdX536idTESTonrQfIlmM4LipjFBXxyoK1h4bfKFo7Tamf3mRV86FTXha/1fmIVuTbCOntd/aSegplZUb+4zaoDW6Y5ncK3tKCr0gm6NFew9OFkaQi5zmz8Paxpx4BLuyqUQt7f0EtAEsNMw81b64SQWv2lT7315zu2Vjh+PG9RqdjIVJWNDxQJaioF/Kypi1k5D9ccJTMHB+AnUWdcVhC8R39mJywJuU3IL9nOYr1IYXCmGnUvaD5ztK7BqfctEBOSy0ZEe+n9xaDHig8I/TXDYfD/cYMWOEe2EDrCmqrYJWlpq7qtNpNO4R0vwRlhG8UvRmJMOV9YUW1TnhR1UnQymn8kj7E26IlOsNFyTODOrw1YyRWLYsPuOOfIc0famiZ9gK5hGBNk=
+  app: secure-savannah-32549
+  on:
+    repo: armando2002/mygameslist
